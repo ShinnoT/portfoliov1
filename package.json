@@ -1,0 +1,36 @@
+{
+  "name": "portfoliov1",
+  "version": "1.0.0",
+  "description": "@vagabadu's portfolio page.",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShinnoT/portfoliov1.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "vagabadu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShinnoT/portfoliov1/issues"
+  },
+  "homepage": "https://github.com/ShinnoT/portfoliov1#readme",
+  "dependencies": {
+    "@chakra-ui/react": "^2.5.4",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "framer-motion": "^10.9.1",
+    "next": "^13.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-next": "^13.2.4"
+  }
+}
