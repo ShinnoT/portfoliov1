@@ -11,7 +11,7 @@ const Main = ({ children, router }) => {
                 />
                 <title>@vagabadu's Portfolio Page</title>
             </Head>
-            <Container maxW="container.md" pt={14}>
+            <Container maxW="md" pt={14}>
                 {children}
             </Container>
         </Box>
