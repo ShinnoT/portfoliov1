@@ -36,16 +36,6 @@ const Footer = () => (
                 &copy; {new Date().getFullYear()} Made with love. All rights
                 reserved.
             </Text>
-            <Text fontSize="sm" color="subtle">
-                Icon by{" "}
-                <a
-                    class="link_pro"
-                    href="https://freeicons.io/corona-virus-precautions-icon/corona-avoid-unprotected-contact-with-live-wild-or-farm-animals-copy-icon-39006"
-                >
-                    Shabna Ashraf
-                </a>
-                on <a href="https://freeicons.io">freeicons.io</a>
-            </Text>
         </Stack>
     </Container>
 );
