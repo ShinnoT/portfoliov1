@@ -12,9 +12,7 @@ const Page = () => {
                     <Heading as="h2" variant="page-title">
                         Shinno Taguchi
                     </Heading>
-                    <p>
-                        H4cker ( Arabophile / Techophile / Developer / Hacker )
-                    </p>
+                    <p>H4cker ( Arabophile / Developer / Hacker )</p>
                 </Box>
             </Box>
         </Container>
