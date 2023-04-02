@@ -13,8 +13,13 @@ const LogoBox = styled.span`
     line-height: 20px;
     padding: 10px;
 
-    &:hover img {
+    svg {
+        transition-duration: 1s;
+    }
+
+    &:hover svg {
         transform: rotate(20deg);
+        color: #eba134;
     }
 `;
 
