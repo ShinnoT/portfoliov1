@@ -4,11 +4,19 @@ import {
     IconButton,
     Stack,
     Text,
+    Divider,
 } from "@chakra-ui/react";
 import { FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Footer = () => (
-    <Container as="footer" role="contentinfo" py={{ base: "12", md: "16" }}>
+    <Container
+        as="footer"
+        role="contentinfo"
+        w="100%"
+        py={{ base: "12", md: "16" }}
+        maxW="container.md"
+    >
+        <Divider mb={2} />
         <Stack spacing={{ base: "4", md: "5" }}>
             <Stack justify="space-between" direction="row" align="center">
                 <ButtonGroup variant="ghost">
