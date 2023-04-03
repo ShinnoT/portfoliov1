@@ -1,6 +1,8 @@
 import Logo from "./logo";
 import NextLink from "next/link";
+import dynamic from "next/dynamic";
 import { HamburgerIcon } from "@chakra-ui/icons";
+import ThemeToggleButton from "./theme-toggle-button";
 import {
     Container,
     Box,
@@ -79,6 +81,7 @@ const NavBar = (props) => {
                     </LinkItem>
                 </Stack>
                 <Box flex={1} align="right">
+                    <ThemeToggleButton />
                     <Box ml={2} display={{ base: "inline-block", md: "none" }}>
                         <Menu>
                             <MenuButton
@@ -115,4 +118,5 @@ const NavBar = (props) => {
     );
 };
 
-export default NavBar;
+// export default NavBar;
+export default dynamic(() => Promise.resolve(NavBar), { ssr: false });
