@@ -42,7 +42,7 @@ const Footer = () => (
                 </ButtonGroup>
             </Stack>
             <Text fontSize="sm" color="subtle">
-                &copy; {new Date().getFullYear()} Made with love. All rights
+                &copy; {new Date().getFullYear()} Made with ♥. All rights
                 reserved.
             </Text>
         </Stack>
