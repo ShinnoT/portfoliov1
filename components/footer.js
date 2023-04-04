@@ -13,7 +13,8 @@ const Footer = () => (
         as="footer"
         role="contentinfo"
         w="100%"
-        py={{ base: "12", md: "16" }}
+        pt={{ base: "12", md: "16" }}
+        pb={{ base: "4", md: "6" }}
         maxW="container.md"
     >
         <Divider mb={2} />

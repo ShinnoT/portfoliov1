@@ -18,14 +18,14 @@ const Page = () => {
                 align="center"
             >
                 Hello World! I&apos;m Shinno, a Syrian Japanese H4CKER based in
-                Lebanon.
+                Beirut, Lebanon.
             </Box>
             <Box display={{ md: "flex" }}>
                 <Box flexGrow={1}>
                     <Heading as="h2" variant="page-title">
                         Shinno Taguchi
                     </Heading>
-                    @Vagabadu ( Arabophile / Developer / H4cker )
+                    @vagabadu ( Arabophile / Developer / H4cker )
                 </Box>
                 <Box
                     flexShrink={0}

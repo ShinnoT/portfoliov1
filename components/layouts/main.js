@@ -5,7 +5,7 @@ import { Box, Container } from "@chakra-ui/react";
 
 const Main = ({ children, router }) => {
     return (
-        <Box as="main" pb={8}>
+        <Box as="main">
             <Head>
                 <meta
                     name="viewport"
