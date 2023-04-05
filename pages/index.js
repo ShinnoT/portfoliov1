@@ -1,18 +1,22 @@
+import NextLink from "next/link";
 import {
     Container,
-    Code,
     Box,
     Heading,
     Image,
     useColorModeValue,
     Text,
+    Button,
 } from "@chakra-ui/react";
+import { ChevronRightIcon } from "@chakra-ui/icons";
 import Section from "../components/section";
 import CodeBlock from "../components/code-block";
+import Paragraph from "../components/paragraph";
+import { BioSection, BioYear } from "../components/bio";
 
 const Page = () => {
     return (
-        <Container>
+        <Container maxW="xl">
             <Box
                 borderRadius="lg"
                 bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
@@ -56,7 +60,7 @@ const Page = () => {
                 <Heading as="h3" variant="section-title">
                     About
                 </Heading>
-                <p>
+                <Paragraph>
                     Introducing Shinno, the software engineer who codes like a
                     ninja! With lightning-fast reflexes and a deep knowledge of
                     programming languages, Shinno can create complex software
@@ -69,7 +73,48 @@ const Page = () => {
                     circumstances and find innovative solutions. So if you want
                     your software to be as stealthy and efficient as a ninja,
                     Shinno is the engineer for you.
-                </p>
+                </Paragraph>
+                <Box align="center" my={4}>
+                    <NextLink href="/works">
+                        <Button
+                            rightIcon={<ChevronRightIcon />}
+                            colorScheme="teal"
+                        >
+                            My portfolio
+                        </Button>
+                    </NextLink>
+                </Box>
+            </Section>
+            <Section delay={0.3}>
+                <Heading as="h3" variant="section-title">
+                    Bio
+                </Heading>
+                <BioSection>
+                    <BioYear>1996</BioYear>Born in Damascus, Syria.
+                </BioSection>
+                <BioSection>
+                    <BioYear>2017</BioYear>Graduated Le Wagon Coding Bootcamp.
+                </BioSection>
+                <BioSection>
+                    <BioYear>2018</BioYear>Graduated Doshisha University
+                    (Bachelor's in Liberal Arts)
+                </BioSection>
+                <BioSection>
+                    <BioYear>2019</BioYear>Worked at Bloomberg L.P. Tokyo
+                </BioSection>
+                <BioSection>
+                    <BioYear>2022 - present</BioYear>Working at Relief &
+                    Reconciliation for Syria
+                </BioSection>
+            </Section>
+            <Section delay={0.4}>
+                <Heading as="h3" variant="section-title">
+                    I ♥
+                </Heading>
+                <Paragraph>
+                    Code, Design, Data Stuff, Brazilian Jiu Jitsu, Cooking,
+                    Reading, Watching Movies
+                </Paragraph>
             </Section>
         </Container>
     );

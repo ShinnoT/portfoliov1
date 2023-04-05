@@ -1,4 +1,4 @@
-import { Code, Box } from "@chakra-ui/react";
+import { Code, Box, Stack } from "@chakra-ui/react";
 
 const CodeLine = ({ children }) => {
     return (
@@ -26,12 +26,20 @@ const CodeLine = ({ children }) => {
 
 const CodeBlock = () => {
     return (
-        <Box borderRadius="lg" bg="black" p={2} mb={6} mt={6} align="left">
+        <Stack
+            borderRadius="lg"
+            bg="black"
+            p={4}
+            mb={6}
+            mt={6}
+            align="left"
+            direction="column"
+        >
             <CodeLine>Hello World.</CodeLine>
             <CodeLine>Name: Shinno Taguchi.</CodeLine>
             <CodeLine>Occupation: H4cker.</CodeLine>
             <CodeLine>Location: Beirut, LB.</CodeLine>
-        </Box>
+        </Stack>
     );
 };
 
