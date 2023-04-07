@@ -39,7 +39,7 @@ const WorkGridItem = ({ children, id, title, thumbnail }) => {
                     alt={title}
                     className="grid-item-thumbnail"
                     placeholder="blur"
-                    style={{ borderRadius: 1 }}
+                    style={{ borderRadius: 3 }}
                 />
                 <LinkOverlay as="div" href={`/works/${id}`}>
                     <Text mt={2} fontSize={20}>
