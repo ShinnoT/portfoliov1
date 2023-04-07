@@ -19,12 +19,12 @@ import {
     StackDivider,
 } from "@chakra-ui/react";
 
-const LinkItem = ({ href, path, children }) => {
+const LinkItem = ({ as, href, path, children }) => {
     const active = path === href;
-    const inactiveColor = useColorModeValue("gray200", "whiteAlpha.900");
+    const inactiveColor = useColorModeValue("gray.700", "whiteAlpha.900");
     return (
         <Link
-            as={NextLink}
+            as={as}
             href={href}
             p={2}
             bg={active && "glassTeal"}
@@ -68,16 +68,30 @@ const NavBar = (props) => {
                     alignItems="center"
                     flexGrow={1}
                     mt={{ base: 4, nmd: 0 }}
-                    divider={<StackDivider borderColor="gray.200" />}
+                    divider={
+                        <StackDivider
+                            borderColor={useColorModeValue(
+                                "gray.400",
+                                "gray.600"
+                            )}
+                        />
+                    }
                 >
-                    <LinkItem href="/works" path={path}>
+                    <LinkItem as={NextLink} href="/works" path={path}>
                         Works
                     </LinkItem>
-                    <LinkItem href="/posts" path={path}>
+                    <LinkItem as={NextLink} href="/posts" path={path}>
                         Posts
                     </LinkItem>
-                    <LinkItem href="/related" path={path}>
+                    <LinkItem as={NextLink} href="/related" path={path}>
                         Related
+                    </LinkItem>
+                    <LinkItem
+                        as="a"
+                        href="https://github.com/ShinnoT"
+                        path={path}
+                    >
+                        View Source
                     </LinkItem>
                 </Stack>
                 <Box flex={1} align="right">

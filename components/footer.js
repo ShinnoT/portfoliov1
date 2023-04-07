@@ -5,6 +5,7 @@ import {
     Stack,
     Text,
     Divider,
+    useColorModeValue,
 } from "@chakra-ui/react";
 import { FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
 
@@ -17,7 +18,10 @@ const Footer = () => (
         pb={{ base: "4", md: "6" }}
         maxW="container.md"
     >
-        <Divider mb={2} />
+        <Divider
+            mb={2}
+            borderColor={useColorModeValue("gray.600", "gray.600")}
+        />
         <Stack spacing={{ base: "4", md: "5" }}>
             <Stack justify="space-between" direction="row" align="center">
                 <ButtonGroup variant="ghost">
