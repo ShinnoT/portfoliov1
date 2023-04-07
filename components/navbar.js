@@ -23,15 +23,15 @@ const LinkItem = ({ href, path, children }) => {
     const active = path === href;
     const inactiveColor = useColorModeValue("gray200", "whiteAlpha.900");
     return (
-        <NextLink href={href}>
-            <Link
-                p={2}
-                bg={active && "glassTeal"}
-                color={active ? "#202023" : inactiveColor}
-            >
-                {children}
-            </Link>
-        </NextLink>
+        <Link
+            as={NextLink}
+            href={href}
+            p={2}
+            bg={active && "glassTeal"}
+            color={active ? "#202023" : inactiveColor}
+        >
+            {children}
+        </Link>
     );
 };
 
@@ -91,18 +91,18 @@ const NavBar = (props) => {
                                 aria-label="Options"
                             />
                             <MenuList>
-                                <NextLink href="/" passHref>
-                                    <MenuItem as={Link}>About</MenuItem>
-                                </NextLink>
-                                <NextLink href="/works" passHref>
-                                    <MenuItem as={Link}>Works</MenuItem>
-                                </NextLink>
-                                <NextLink href="/posts" passHref>
-                                    <MenuItem as={Link}>Posts</MenuItem>
-                                </NextLink>
-                                <NextLink href="/related" passHref>
-                                    <MenuItem as={Link}>Related</MenuItem>
-                                </NextLink>
+                                <MenuItem as={NextLink} href="/">
+                                    Home
+                                </MenuItem>
+                                <MenuItem as={NextLink} href="/works">
+                                    Works
+                                </MenuItem>
+                                <MenuItem as={NextLink} href="/posts">
+                                    Posts
+                                </MenuItem>
+                                <MenuItem as={NextLink} href="/related">
+                                    Related
+                                </MenuItem>
                                 <MenuItem
                                     as={Link}
                                     href="https://github.com/ShinnoT"
@@ -118,5 +118,5 @@ const NavBar = (props) => {
     );
 };
 
-// export default NavBar;
-export default dynamic(() => Promise.resolve(NavBar), { ssr: false });
+export default NavBar;
+// export default dynamic(() => Promise.resolve(NavBar), { ssr: false });
