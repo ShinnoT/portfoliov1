@@ -14,10 +14,17 @@ const Main = ({ children, router }) => {
                 <title>@vagabadu's Portfolio Page</title>
             </Head>
             <NavBar path={router.asPath} />
-            <Container maxW="container.md" pt={14}>
+            <Container
+                maxW="container.md"
+                height="100vh"
+                display="flex"
+                flexDirection="column"
+                justifyContent="space-between"
+                pt={14}
+            >
                 {children}
+                <Footer />
             </Container>
-            <Footer />
         </Box>
     );
 };
