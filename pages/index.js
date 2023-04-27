@@ -104,6 +104,9 @@ const Page = () => {
                         (Bachelor's in Liberal Arts).
                     </BioSection>
                     <BioSection>
+                        <BioYear>2018</BioYear>Worked at Ship&co Kyoto.
+                    </BioSection>
+                    <BioSection>
                         <BioYear>2019</BioYear>Worked at Bloomberg L.P. Tokyo.
                     </BioSection>
                     <BioSection>

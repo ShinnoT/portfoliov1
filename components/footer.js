@@ -27,13 +27,13 @@ const Footer = () => (
                 <ButtonGroup variant="ghost">
                     <IconButton
                         as="a"
-                        href="#"
+                        href="https://www.instagram.com/vagabadu/"
                         aria-label="Instagram"
                         icon={<FaInstagram fontSize="1.25rem" />}
                     />
                     <IconButton
                         as="a"
-                        href="#"
+                        href="https://github.com/shinnot"
                         aria-label="GitHub"
                         icon={<FaGithub fontSize="1.25rem" />}
                     />

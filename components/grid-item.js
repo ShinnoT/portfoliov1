@@ -31,7 +31,7 @@ const WorkGridItem = ({ children, id, title, thumbnail }) => {
             <LinkBox
                 as={NextLink}
                 href={`/works/${id}`}
-                scroll={false}
+                scroll={true}
                 cursor="pointer"
             >
                 <Image

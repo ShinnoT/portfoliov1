@@ -89,7 +89,7 @@ const NavBar = (props) => {
                     </LinkItem>
                     <LinkItem
                         as="a"
-                        href="https://github.com/ShinnoT"
+                        href="https://github.com/ShinnoT/portfoliov1"
                         path={path}
                     >
                         View Source
