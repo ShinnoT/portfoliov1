@@ -17,7 +17,7 @@ const Works = () => {
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
                     <Section>
                         <WorkGridItem
-                            id="Ship&co"
+                            id="ship&co"
                             title="Ship&co"
                             thumbnail={thumbShipandco}
                         >
@@ -27,7 +27,7 @@ const Works = () => {
                     </Section>
                     <Section>
                         <WorkGridItem
-                            id="Bloomberg L.P."
+                            id="bloomberg"
                             title="Bloomberg L.P."
                             thumbnail={thumbBBG}
                         >
@@ -37,7 +37,7 @@ const Works = () => {
                     </Section>
                     <Section>
                         <WorkGridItem
-                            id="R&R Syria"
+                            id="r&r_syria"
                             title="R&R Syria"
                             thumbnail={thumbRR}
                         >

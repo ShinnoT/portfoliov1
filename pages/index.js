@@ -28,8 +28,8 @@ const Page = () => {
                     align="center"
                 >
                     <Text as="em">
-                        "How wonderful that we have met with a paradox. Now we
-                        have some hope of making progress."
+                        "How wonderful that we have met with a paradox. <br />
+                        Now we have some hope of making progress."
                     </Text>
                 </Box>
                 <CodeBlock />
@@ -101,14 +101,14 @@ const Page = () => {
                     </BioSection>
                     <BioSection>
                         <BioYear>2018</BioYear>Graduated Doshisha University
-                        (Bachelor's in Liberal Arts)
+                        (Bachelor's in Liberal Arts).
                     </BioSection>
                     <BioSection>
-                        <BioYear>2019</BioYear>Worked at Bloomberg L.P. Tokyo
+                        <BioYear>2019</BioYear>Worked at Bloomberg L.P. Tokyo.
                     </BioSection>
                     <BioSection>
                         <BioYear>2022 - present</BioYear>Working at Relief &
-                        Reconciliation for Syria
+                        Reconciliation for Syria.
                     </BioSection>
                 </Section>
                 <Section delay={0.4}>

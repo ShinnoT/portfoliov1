@@ -11,7 +11,7 @@ const Main = ({ children, router }) => {
                     name="viewport"
                     content="width=device-width, initial-scale=1"
                 />
-                <title>@vagabadu's Portfolio Page</title>
+                <title>Shinno's Portfolio Page</title>
             </Head>
             <NavBar path={router.asPath} />
             <Container
