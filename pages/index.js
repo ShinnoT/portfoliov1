@@ -13,32 +13,17 @@ import Layout from "../components/layouts/article";
 import Section from "../components/section";
 import CodeBlock from "../components/code-block";
 import Paragraph from "../components/paragraph";
+import Quote from "../components/quote";
 import { BioSection, BioYear } from "../components/bio";
 
 const Page = () => {
     return (
         <Layout>
             <Container maxW="xl">
-                <Box
-                    borderRadius="lg"
-                    bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
-                    p={16}
-                    mb={6}
-                    mt={6}
-                    fontFamily="Georgia"
-                    fontSize={{ base: "xl", md: "2xl" }}
-                >
-                    <Text as="em" align="left">
-                        <q>
-                            How wonderful that we have met with a paradox. Now
-                            we have some hope of making progress.
-                        </q>
-                    </Text>
-
-                    <Text mt={4} mb={0} fontSize="sm" align="right">
-                        &mdash; Niels Bohr
-                    </Text>
-                </Box>
+                <Quote author="Niels Bohr">
+                    How wonderful that we have met with a paradox. Now we have
+                    some hope of making progress.
+                </Quote>
                 <CodeBlock />
                 <Box display={{ md: "flex" }}>
                     <Box flexGrow={1}>
