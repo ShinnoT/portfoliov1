@@ -22,14 +22,21 @@ const Page = () => {
                 <Box
                     borderRadius="lg"
                     bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
-                    p={10}
+                    p={16}
                     mb={6}
                     mt={6}
-                    align="center"
+                    fontFamily="Georgia"
+                    fontSize={{ base: "xl", md: "2xl" }}
                 >
-                    <Text as="em">
-                        "How wonderful that we have met with a paradox. <br />
-                        Now we have some hope of making progress."
+                    <Text as="em" align="left">
+                        <q>
+                            How wonderful that we have met with a paradox. Now
+                            we have some hope of making progress.
+                        </q>
+                    </Text>
+
+                    <Text mt={4} mb={0} fontSize="sm" align="right">
+                        &mdash; Niels Bohr
                     </Text>
                 </Box>
                 <CodeBlock />

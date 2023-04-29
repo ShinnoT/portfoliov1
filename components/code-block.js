@@ -2,21 +2,21 @@ import { Code, Box, Stack } from "@chakra-ui/react";
 
 const CodeLine = ({ children }) => {
     return (
-        <Code color="green" fontSize="xs">
+        <Code color="green" fontSize={{ base: "2xs", md: "xs" }}>
             console.log
-            <Code color="orange" fontSize="xs">
+            <Code color="orange" fontSize={{ base: "2xs", md: "xs" }}>
                 (
             </Code>
-            <Code color="yellow" fontSize="xs">
-                <Code color="purple.300" fontSize="xs">
+            <Code color="yellow" fontSize={{ base: "2xs", md: "xs" }}>
+                <Code color="purple.300" fontSize={{ base: "2xs", md: "xs" }}>
                     "
                 </Code>
                 {children}
-                <Code color="purple.300" fontSize="xs">
+                <Code color="purple.300" fontSize={{ base: "2xs", md: "xs" }}>
                     "
                 </Code>
             </Code>
-            <Code color="orange" fontSize="xs">
+            <Code color="orange" fontSize={{ base: "2xs", md: "xs" }}>
                 )
             </Code>
             ;
