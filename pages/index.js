@@ -1,4 +1,5 @@
 import NextLink from "next/link";
+import Head from "next/head";
 import {
     Container,
     Box,
@@ -19,6 +20,25 @@ import { BioSection, BioYear } from "../components/bio";
 const Page = () => {
     return (
         <Layout>
+            <Head>
+                <title>Shinno's Portfolio Page</title>
+                <meta
+                    name="description"
+                    content="Welcome to @vagabadu's portfolio website - come explore my work."
+                />
+                <meta property="og:url" content="https://shinno.io" />
+                <meta property="og:type" content="website" />
+                <meta property="og:title" content="Shinno's Portfolio Page" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta
+                    property="og:description"
+                    content="Welcome to @vagabadu's portfolio website - come explore my work."
+                />
+                <meta
+                    property="og:image"
+                    content={"/images/website-screenshot-dark.png"}
+                />
+            </Head>
             <Container maxW="xl">
                 <Quote author="Niels Bohr">
                     How wonderful that we have met with a paradox. Now we have

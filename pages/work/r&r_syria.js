@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { Container, Badge, Link, List, ListItem } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { Title, WorkImage, Meta } from "../../components/work";
@@ -7,6 +8,34 @@ import Layout from "../../components/layouts/article";
 const Work = () => {
     return (
         <Layout title="Relief & Reconciliation for Syria">
+            <Head>
+                <title>
+                    Shinno's Portfolio Page | Work - Relief & Reconciliation for
+                    Syria
+                </title>
+                <meta
+                    name="description"
+                    content="@vagabadu's experience working at Relief & Reconciliation for Syria."
+                />
+                <meta
+                    property="og:url"
+                    content="https://shinno.io/work/r&r_syria"
+                />
+                <meta property="og:type" content="website" />
+                <meta
+                    property="og:title"
+                    content="Shinno's Portfolio Page | Work - Relief & Reconciliation for Syria"
+                />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta
+                    property="og:description"
+                    content="@vagabadu's experience working at Relief & Reconciliation for Syria."
+                />
+                <meta
+                    property="og:image"
+                    content={"/images/work-rr-screenshot-dark.png"}
+                />
+            </Head>
             <Container>
                 <Title navLink="work">
                     Relief & Reconciliation for Syria <Badge>2022</Badge>
@@ -16,44 +45,44 @@ const Work = () => {
                     alt="Relief & Reconciliation for Syria"
                 />
                 <P>
-                    For us, Syria is more than a country. Syria is the home of
-                    our tortured humanity. Syria is the place where the fate of
-                    the twenty-first century will be carved: as a century of
-                    freedom and welfare for all humankind or as a century of
-                    oppression and war.
+                    Throughout my fulfilling journey at the NGO Relief and
+                    Reconciliation for Syria, located on the borders of Syria in
+                    Northern Lebanon, I have had the privilege of contributing
+                    my skills and expertise to make a positive impact in the
+                    lives of others. As a versatile professional, I have held
+                    multiple roles within the organization, serving as a
+                    Communications Manager, Translator, English Teacher, and
+                    Computer Literacy Teacher.
                 </P>
                 <P>
-                    We are a group of men and women, based in Europe and the
-                    Middle East, who could not stand by and watch while the
-                    cradle of our civilisation is bombed into ruins. We could
-                    not look the other way when millions of Syrians were killed
-                    or had to flee their homes. We could not remain silent when
-                    the aspirations of peaceful protestors were answered with
-                    crimes against humanity. We could not remain indifferent
-                    when religious communities were driven against each other so
-                    that a few could stay in power.
+                    As a Communications Manager, I took on the responsibility of
+                    fostering clear and effective communication channels both
+                    internally and externally. I collaborated closely with
+                    various teams to develop and implement communication
+                    strategies, ensuring that the organization's mission and
+                    initiatives were conveyed to stakeholders and the public
+                    with clarity and impact. My passion for storytelling and
+                    connecting with diverse audiences played a significant role
+                    in enhancing the NGO's outreach and engagement efforts.
                 </P>
                 <P>
-                    We are a group of simple citizens from Syria, Europe and
-                    from a range of Arab countries who felt compelled to take
-                    action. As a genuine expression of the emerging civil
-                    society from both shores of the Mediterranean, we unite
-                    Muslims, Christians, Jews and others around a common cause:
-                    to stand up in solidarity with the Syrian people and to send
-                    a message of hope to the world. United in diversity, we are
-                    committed to the principle of spiritual solidarity that
-                    transcends borders in the search for the common good.
+                    In addition to my managerial role, my language skills
+                    allowed me to bridge cultural divides and facilitate
+                    understanding between English and Arabic-speaking
+                    communities. Serving as a Translator, I facilitated seamless
+                    communication between those we serve, our staff, and
+                    international partners. This role strengthened my belief in
+                    the power of language to foster empathy and unity, even in
+                    challenging circumstances.
                 </P>
                 <P>
-                    Relief & Reconciliation International AISBL is an
-                    independent non-profit organisation under Belgian law that
-                    is based upon the individual membership of dedicated men and
-                    women who serve as unpaid volunteers for our cause. We count
-                    today more than 550 members from around the world who are
-                    working for peace and justice in Syria and the wider region.
-                    We are following a specific methodology, combining conflict
-                    transformation with humanitarian aid under the co-deciding
-                    authority of local communities.
+                    As an English Teacher and Computer Literacy Teacher, I had
+                    the opportunity to empower individuals by imparting valuable
+                    skills that opened doors to new opportunities. Whether
+                    teaching language skills that improved employability or
+                    equipping beneficiaries with digital literacy, I witnessed
+                    firsthand the transformative effect of education in shaping
+                    lives and fostering resilience.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>

@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { Container, Box, Heading, SimpleGrid, Divider } from "@chakra-ui/react";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
@@ -10,6 +11,28 @@ import thumbShipandco from "../public/images/work/Shipandco-card.png";
 const Work = () => {
     return (
         <Layout>
+            <Head>
+                <title>Shinno's Portfolio Page | Work</title>
+                <meta
+                    name="description"
+                    content="A gallery of @vagabadu's work experience."
+                />
+                <meta property="og:url" content="https://shinno.io/work" />
+                <meta property="og:type" content="website" />
+                <meta
+                    property="og:title"
+                    content="Shinno's Portfolio Page | Work"
+                />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta
+                    property="og:description"
+                    content="A gallery of @vagabadu's work experience."
+                />
+                <meta
+                    property="og:image"
+                    content={"/images/work-screenshot-dark.png"}
+                />
+            </Head>
             <Container maxW="xl">
                 <Heading as="h3" fontSize={20} my={6}>
                     Work

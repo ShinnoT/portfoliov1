@@ -11,19 +11,11 @@ const Main = ({ children, router }) => {
                     name="viewport"
                     content="width=device-width, initial-scale=1"
                 />
-                <title>Shinno's Portfolio Page</title>
-                <meta property="og:url" content="https://shinno.io" />
-                <meta property="og:type" content="website" />
-                <meta property="og:title" content="Shinno's Portfolio Page" />
-                <meta name="twitter:card" content="summary_large_image" />
                 <meta
-                    property="og:description"
-                    content="Welcome to @vagabadu's portfolio website - come explore my work."
+                    name="keywords"
+                    content="HTML, CSS, JavaScript, Node.JS, Python, Next.JS, Portfolio"
                 />
-                <meta
-                    property="og:image"
-                    content={"/images/website-screenshot-dark.png"}
-                />
+                <meta name="author" content="Shinno Taguchi" />
             </Head>
             <NavBar path={router.asPath} />
             <Container
