@@ -24,7 +24,6 @@ const Page = () => {
                     How wonderful that we have met with a paradox. Now we have
                     some hope of making progress.
                 </Quote>
-                <CodeBlock />
                 <Box display={{ md: "flex" }}>
                     <Box flexGrow={1}>
                         <Heading as="h2" variant="page-title">
@@ -50,6 +49,7 @@ const Page = () => {
                         />
                     </Box>
                 </Box>
+                <CodeBlock />
                 <Section delay={0.2}>
                     <Heading as="h3" variant="section-title">
                         About
@@ -70,7 +70,7 @@ const Page = () => {
                         engineer for you.
                     </Paragraph>
                     <Box align="center" my={4}>
-                        <NextLink href="/works">
+                        <NextLink href="/work">
                             <Button
                                 rightIcon={<ChevronRightIcon />}
                                 colorScheme="teal"
@@ -114,6 +114,16 @@ const Page = () => {
                         Code, Design, Data Stuff, Brazilian Jiu Jitsu, Cooking,
                         Reading, Watching Movies
                     </Paragraph>
+                    <Box align="center" my={4}>
+                        <NextLink href="/projects">
+                            <Button
+                                rightIcon={<ChevronRightIcon />}
+                                colorScheme="teal"
+                            >
+                                My projects
+                            </Button>
+                        </NextLink>
+                    </Box>
                 </Section>
             </Container>
         </Layout>

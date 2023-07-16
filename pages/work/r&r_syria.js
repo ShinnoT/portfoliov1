@@ -8,11 +8,11 @@ const Work = () => {
     return (
         <Layout title="Relief & Reconciliation for Syria">
             <Container>
-                <Title>
+                <Title navLink="work">
                     Relief & Reconciliation for Syria <Badge>2022</Badge>
                 </Title>
                 <WorkImage
-                    src="/images/works/RR-card.png"
+                    src="/images/work/RR-card.png"
                     alt="Relief & Reconciliation for Syria"
                 />
                 <P>

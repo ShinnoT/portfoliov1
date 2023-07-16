@@ -25,15 +25,10 @@ const GridItem = ({ children, href, title, thumbnail }) => {
     );
 };
 
-const WorkGridItem = ({ children, id, title, thumbnail }) => {
+const WorkGridItem = ({ children, id, title, href, thumbnail }) => {
     return (
         <Box w="100%" align="center">
-            <LinkBox
-                as={NextLink}
-                href={`/works/${id}`}
-                scroll={true}
-                cursor="pointer"
-            >
+            <LinkBox as={NextLink} href={href} scroll={true} cursor="pointer">
                 <Image
                     src={thumbnail}
                     alt={title}
@@ -41,7 +36,7 @@ const WorkGridItem = ({ children, id, title, thumbnail }) => {
                     placeholder="blur"
                     style={{ borderRadius: 3 }}
                 />
-                <LinkOverlay as="div" href={`/works/${id}`}>
+                <LinkOverlay as="div" href={href}>
                     <Text mt={2} fontSize={20}>
                         {title}
                     </Text>

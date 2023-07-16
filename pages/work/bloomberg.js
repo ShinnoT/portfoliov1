@@ -8,11 +8,11 @@ const Work = () => {
     return (
         <Layout title="Bloomberg L.P.">
             <Container>
-                <Title>
+                <Title navLink="work">
                     Bloomberg L.P. <Badge>2019</Badge>
                 </Title>
                 <WorkImage
-                    src="/images/works/Bloomberg-card.png"
+                    src="/images/work/Bloomberg-card.png"
                     alt="Bloomberg L.P."
                 />
                 <P>

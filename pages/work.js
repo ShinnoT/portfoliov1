@@ -3,22 +3,23 @@ import Layout from "../components/layouts/article";
 import Section from "../components/section";
 import { WorkGridItem } from "../components/grid-item";
 
-import thumbRR from "../public/images/works/RR-card.png";
-import thumbBBG from "../public/images/works/Bloomberg-card.png";
-import thumbShipandco from "../public/images/works/Shipandco-card.png";
+import thumbRR from "../public/images/work/RR-card.png";
+import thumbBBG from "../public/images/work/Bloomberg-card.png";
+import thumbShipandco from "../public/images/work/Shipandco-card.png";
 
-const Works = () => {
+const Work = () => {
     return (
         <Layout>
             <Container maxW="xl">
                 <Heading as="h3" fontSize={20} my={6}>
-                    Works
+                    Work
                 </Heading>
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
                     <Section>
                         <WorkGridItem
                             id="ship&co"
                             title="Ship&co"
+                            href="/work/ship&co"
                             thumbnail={thumbShipandco}
                         >
                             All-in-One Shipping Management Solution for Global
@@ -29,6 +30,7 @@ const Works = () => {
                         <WorkGridItem
                             id="bloomberg"
                             title="Bloomberg L.P."
+                            href="/work/bloomberg"
                             thumbnail={thumbBBG}
                         >
                             Bloomberg is the global leader in business and
@@ -39,6 +41,7 @@ const Works = () => {
                         <WorkGridItem
                             id="r&r_syria"
                             title="R&R Syria"
+                            href="/work/r&r_syria"
                             thumbnail={thumbRR}
                         >
                             Frontline NGO based in Akkar, Lebanon, supporting
@@ -51,4 +54,4 @@ const Works = () => {
     );
 };
 
-export default Works;
+export default Work;

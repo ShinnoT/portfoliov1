@@ -78,14 +78,14 @@ const NavBar = (props) => {
                         />
                     }
                 >
-                    <LinkItem as={NextLink} href="/works" path={path}>
-                        Works
+                    <LinkItem as={NextLink} href="/work" path={path}>
+                        Work
                     </LinkItem>
-                    <LinkItem as={NextLink} href="/posts" path={path}>
-                        Posts
+                    <LinkItem as={NextLink} href="/projects" path={path}>
+                        Projects
                     </LinkItem>
-                    <LinkItem as={NextLink} href="/related" path={path}>
-                        Related
+                    <LinkItem as="a" href="#" path={path}>
+                        Blog
                     </LinkItem>
                     <LinkItem
                         as="a"
@@ -109,14 +109,14 @@ const NavBar = (props) => {
                                 <MenuItem as={NextLink} href="/">
                                     Home
                                 </MenuItem>
-                                <MenuItem as={NextLink} href="/works">
-                                    Works
+                                <MenuItem as={NextLink} href="/work">
+                                    Work
                                 </MenuItem>
-                                <MenuItem as={NextLink} href="/posts">
-                                    Posts
+                                <MenuItem as={NextLink} href="/projects">
+                                    Projects
                                 </MenuItem>
-                                <MenuItem as={NextLink} href="/related">
-                                    Related
+                                <MenuItem as="a" href="#">
+                                    Blog
                                 </MenuItem>
                                 <MenuItem
                                     as={Link}
