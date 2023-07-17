@@ -80,7 +80,7 @@ const Project = () => {
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href="#">
+                        <Link href="#" target="_blank">
                             https://www.paranoia.com/
                             <ExternalLinkIcon mx="2px" />
                         </Link>

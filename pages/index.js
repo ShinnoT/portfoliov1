@@ -8,6 +8,7 @@ import {
     useColorModeValue,
     Text,
     Button,
+    Link,
 } from "@chakra-ui/react";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import Layout from "../components/layouts/article";
@@ -75,19 +76,37 @@ const Page = () => {
                         About
                     </Heading>
                     <Paragraph>
-                        Introducing Shinno, the software engineer who codes like
-                        a ninja! With lightning-fast reflexes and a deep
-                        knowledge of programming languages, Shinno can create
-                        complex software solutions with ease. Whether you need a
-                        custom web application or a database management system,
-                        Shinno's got you covered. But what really makes Shinno
-                        stand out is his ability to solve problems creatively
-                        and efficiently. He approaches every project with the
-                        same agility and precision as a ninja in battle, always
-                        ready to adapt to changing circumstances and find
-                        innovative solutions. So if you want your software to be
-                        as stealthy and efficient as a ninja, Shinno is the
-                        engineer for you.
+                        Hey there, fellow tech enthusiasts and coding
+                        connoisseurs! Welcome to my little corner of the
+                        internet where tech magic happens, bugs tremble, and
+                        caffeine turns into code! I'm Shinno, your resident
+                        software sorcerer, and I couldn't be more thrilled to
+                        have you stumble upon my digital playground.
+                    </Paragraph>
+                    <Paragraph>
+                        I've got a soft spot for the weird and wonderful -
+                        whether it's the latest tech trends, programming
+                        languages du jour, or just some hilarious coding memes
+                        to keep me sane during those torturous debugging
+                        sessions.
+                    </Paragraph>
+                    <Paragraph>
+                        So, take a seat, grab your favorite beverage (mine's a
+                        lipton ice-tea [peach]), and let's embark on an epic
+                        journey into the realms of tech, code, and everything in
+                        between. Feel free to checkout my work experiences and
+                        personal projects, and if you're interested in the
+                        strange thoughts I have regularly, feel free to checkout
+                        my{" "}
+                        <Link as="a" href="#" target="_blank">
+                            personal blog
+                        </Link>{" "}
+                        as well.
+                    </Paragraph>
+                    <Paragraph>
+                        And remember, if you ever need a code wizard to sprinkle
+                        some magic on your tech projects, I'm just a click away.
+                        Stay nerdy and keep coding!
                     </Paragraph>
                     <Box align="center" my={4}>
                         <NextLink href="/work">

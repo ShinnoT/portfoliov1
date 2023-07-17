@@ -87,7 +87,10 @@ const Work = () => {
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href="https://www.reliefandreconciliation.org/">
+                        <Link
+                            href="https://www.reliefandreconciliation.org/"
+                            target="_blank"
+                        >
                             https://www.reliefandreconciliation.org/
                             <ExternalLinkIcon mx="2px" />
                         </Link>
