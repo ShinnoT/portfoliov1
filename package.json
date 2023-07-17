@@ -21,13 +21,15 @@
   },
   "homepage": "https://github.com/ShinnoT/portfoliov1#readme",
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.18",
     "@chakra-ui/react": "^2.5.4",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "framer-motion": "^10.9.1",
     "next": "^13.2.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0"
   },
   "devDependencies": {
     "eslint": "^8.36.0",
