@@ -84,7 +84,11 @@ const NavBar = (props) => {
                     <LinkItem as={NextLink} href="/projects" path={path}>
                         Projects
                     </LinkItem>
-                    <LinkItem as="a" href="#" path={path}>
+                    <LinkItem
+                        as="a"
+                        href="https://vagabadu-blog.netlify.app/"
+                        path={path}
+                    >
                         Blog
                     </LinkItem>
                     <LinkItem
@@ -115,7 +119,10 @@ const NavBar = (props) => {
                                 <MenuItem as={NextLink} href="/projects">
                                     Projects
                                 </MenuItem>
-                                <MenuItem as="a" href="#">
+                                <MenuItem
+                                    as="a"
+                                    href="https://vagabadu-blog.netlify.app/"
+                                >
                                     Blog
                                 </MenuItem>
                                 <MenuItem

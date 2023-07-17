@@ -98,7 +98,11 @@ const Page = () => {
                         personal projects, and if you're interested in the
                         strange thoughts I have regularly, feel free to checkout
                         my{" "}
-                        <Link as="a" href="#" target="_blank">
+                        <Link
+                            as="a"
+                            href="https://vagabadu-blog.netlify.app/"
+                            target="_blank"
+                        >
                             personal blog
                         </Link>{" "}
                         as well.
