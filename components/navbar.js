@@ -1,6 +1,5 @@
 import Logo from "./logo";
 import NextLink from "next/link";
-import dynamic from "next/dynamic";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import ThemeToggleButton from "./theme-toggle-button";
 import {

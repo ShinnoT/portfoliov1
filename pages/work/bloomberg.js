@@ -9,7 +9,9 @@ const Work = () => {
     return (
         <Layout title="Bloomberg L.P.">
             <Head>
-                <title>Shinno's Portfolio Page | Work - Bloomberg L.P.</title>
+                <title>
+                    Shinno&apos;s Portfolio Page | Work - Bloomberg L.P.
+                </title>
                 <meta
                     name="description"
                     content="@vagabadu's experience working at Bloomberg L.P."

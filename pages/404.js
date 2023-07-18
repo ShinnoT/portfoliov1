@@ -1,14 +1,6 @@
 import NextLink from "next/link";
-import {
-    Container,
-    Box,
-    Heading,
-    Divider,
-    Text,
-    Button,
-} from "@chakra-ui/react";
+import { Container, Box, Heading, Text, Button } from "@chakra-ui/react";
 import Layout from "../components/layouts/article";
-import Section from "../components/section";
 
 const NotFound = () => {
     return (

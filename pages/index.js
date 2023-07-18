@@ -1,15 +1,6 @@
 import NextLink from "next/link";
 import Head from "next/head";
-import {
-    Container,
-    Box,
-    Heading,
-    Image,
-    useColorModeValue,
-    Text,
-    Button,
-    Link,
-} from "@chakra-ui/react";
+import { Container, Box, Heading, Image, Button, Link } from "@chakra-ui/react";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
@@ -22,7 +13,7 @@ const Page = () => {
     return (
         <Layout>
             <Head>
-                <title>Shinno's Portfolio Page</title>
+                <title>Shinno&apos;s Portfolio Page</title>
                 <meta
                     name="description"
                     content="Welcome to @vagabadu's portfolio website - come explore my work."
@@ -79,25 +70,25 @@ const Page = () => {
                         Hey there, fellow tech enthusiasts and coding
                         connoisseurs! Welcome to my little corner of the
                         internet where tech magic happens, bugs tremble, and
-                        caffeine turns into code! I'm Shinno, your resident
+                        caffeine turns into code! I&apos;m Shinno, your resident
                         software sorcerer, and I couldn't be more thrilled to
                         have you stumble upon my digital playground.
                     </Paragraph>
                     <Paragraph>
-                        I've got a soft spot for the weird and wonderful -
-                        whether it's the latest tech trends, programming
+                        I&apos;ve got a soft spot for the weird and wonderful -
+                        whether it&apos;s the latest tech trends, programming
                         languages du jour, or just some hilarious coding memes
                         to keep me sane during those torturous debugging
                         sessions.
                     </Paragraph>
                     <Paragraph>
-                        So, take a seat, grab your favorite beverage (mine's a
-                        lipton ice-tea [peach]), and let's embark on an epic
-                        journey into the realms of tech, code, and everything in
-                        between. Feel free to checkout my work experiences and
-                        personal projects, and if you're interested in the
-                        strange thoughts I have regularly, feel free to checkout
-                        my{" "}
+                        So, take a seat, grab your favorite beverage
+                        (mine&apos;s a lipton ice-tea [peach]), and let&apos;s
+                        embark on an epic journey into the realms of tech, code,
+                        and everything in between. Feel free to checkout my work
+                        experiences and personal projects, and if you&apos;re
+                        interested in the strange thoughts I have regularly,
+                        feel free to checkout my{" "}
                         <Link
                             as="a"
                             href="https://vagabadu-blog.netlify.app/"
@@ -109,8 +100,8 @@ const Page = () => {
                     </Paragraph>
                     <Paragraph>
                         And remember, if you ever need a code wizard to sprinkle
-                        some magic on your tech projects, I'm just a click away.
-                        Stay nerdy and keep coding!
+                        some magic on your tech projects, I&apos;m just a click
+                        away. Stay nerdy and keep coding!
                     </Paragraph>
                     <Box align="center" my={4}>
                         <NextLink href="/work">
@@ -136,7 +127,7 @@ const Page = () => {
                     </BioSection>
                     <BioSection>
                         <BioYear>2018</BioYear>Graduated Doshisha University
-                        (Bachelor's in Liberal Arts).
+                        (Bachelor&apos;s in Liberal Arts).
                     </BioSection>
                     <BioSection>
                         <BioYear>2018</BioYear>Worked at Ship&co Kyoto.
