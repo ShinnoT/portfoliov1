@@ -10,8 +10,8 @@ const Work = () => {
         <Layout title="Relief & Reconciliation for Syria">
             <Head>
                 <title>
-                    Shinno's Portfolio Page | Work - Relief & Reconciliation for
-                    Syria
+                    Shinno&apos;s Portfolio Page | Work - Relief &
+                    Reconciliation for Syria
                 </title>
                 <meta
                     name="description"
@@ -59,11 +59,11 @@ const Work = () => {
                     fostering clear and effective communication channels both
                     internally and externally. I collaborated closely with
                     various teams to develop and implement communication
-                    strategies, ensuring that the organization's mission and
-                    initiatives were conveyed to stakeholders and the public
+                    strategies, ensuring that the organization&apos;s mission
+                    and initiatives were conveyed to stakeholders and the public
                     with clarity and impact. My passion for storytelling and
                     connecting with diverse audiences played a significant role
-                    in enhancing the NGO's outreach and engagement efforts.
+                    in enhancing the NGO&apos;s outreach and engagement efforts.
                 </P>
                 <P>
                     In addition to my managerial role, my language skills

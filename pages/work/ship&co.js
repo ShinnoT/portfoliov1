@@ -9,7 +9,7 @@ const Work = () => {
     return (
         <Layout title="Ship&co">
             <Head>
-                <title>Shinno's Portfolio Page | Work - Ship&co</title>
+                <title>Shinno&apos;s Portfolio Page | Work - Ship&co</title>
                 <meta
                     name="description"
                     content="@vagabadu's experience working at Ship&co."
@@ -68,7 +68,8 @@ const Work = () => {
                     Whether it was interfacing with carrier services or
                     synchronizing shipping data, I ensured that our application
                     communicated flawlessly with external platforms, enhancing
-                    the overall efficiency of our clients' shipping processes.
+                    the overall efficiency of our clients&apos; shipping
+                    processes.
                 </P>
                 <P>
                     Throughout my journey as a full-stack software engineer, I

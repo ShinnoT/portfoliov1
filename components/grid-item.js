@@ -1,6 +1,6 @@
 import NextLink from "next/link";
 import Image from "next/image";
-import { Box, LinkBox, Text, LinkOverlay, border } from "@chakra-ui/react";
+import { Box, LinkBox, Text, LinkOverlay } from "@chakra-ui/react";
 import { Global } from "@emotion/react";
 
 const GridItem = ({ children, href, title, thumbnail }) => {
@@ -25,7 +25,7 @@ const GridItem = ({ children, href, title, thumbnail }) => {
     );
 };
 
-const WorkGridItem = ({ children, id, title, href, thumbnail }) => {
+const WorkGridItem = ({ children, title, href, thumbnail }) => {
     return (
         <Box w="100%" align="center">
             <LinkBox as={NextLink} href={href} scroll={true} cursor="pointer">

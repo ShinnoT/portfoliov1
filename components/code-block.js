@@ -1,4 +1,4 @@
-import { Code, Box, Stack } from "@chakra-ui/react";
+import { Code, Stack } from "@chakra-ui/react";
 
 const CodeLine = ({ children }) => {
     return (
@@ -9,11 +9,11 @@ const CodeLine = ({ children }) => {
             </Code>
             <Code color="yellow" fontSize={{ base: "2xs", md: "xs" }}>
                 <Code color="purple.300" fontSize={{ base: "2xs", md: "xs" }}>
-                    "
+                    &quot;
                 </Code>
                 {children}
                 <Code color="purple.300" fontSize={{ base: "2xs", md: "xs" }}>
-                    "
+                    &quot;
                 </Code>
             </Code>
             <Code color="orange" fontSize={{ base: "2xs", md: "xs" }}>

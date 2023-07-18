@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Container, Box, Heading, SimpleGrid, Divider } from "@chakra-ui/react";
+import { Container, Heading, SimpleGrid } from "@chakra-ui/react";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
 import { WorkGridItem } from "../components/grid-item";
@@ -12,7 +12,7 @@ const Work = () => {
     return (
         <Layout>
             <Head>
-                <title>Shinno's Portfolio Page | Work</title>
+                <title>Shinno&apos;s Portfolio Page | Work</title>
                 <meta
                     name="description"
                     content="A gallery of @vagabadu's work experience."
