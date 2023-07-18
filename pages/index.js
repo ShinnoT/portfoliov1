@@ -71,8 +71,8 @@ const Page = () => {
                         connoisseurs! Welcome to my little corner of the
                         internet where tech magic happens, bugs tremble, and
                         caffeine turns into code! I&apos;m Shinno, your resident
-                        software sorcerer, and I couldn't be more thrilled to
-                        have you stumble upon my digital playground.
+                        software sorcerer, and I couldn&apos;t be more thrilled
+                        to have you stumble upon my digital playground.
                     </Paragraph>
                     <Paragraph>
                         I&apos;ve got a soft spot for the weird and wonderful -
