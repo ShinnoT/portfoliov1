@@ -5,6 +5,7 @@ import Section from "../components/section";
 import { WorkGridItem } from "../components/grid-item";
 
 import thumbParanoia from "../public/images/projects/Paranoia-card.png";
+import thumbDebtflo from "../public/images/projects/Debtflo-card.png";
 
 const Projects = () => {
     return (
@@ -15,7 +16,10 @@ const Projects = () => {
                     name="description"
                     content="A gallery of @vagabadu's personal projects."
                 />
-                <meta property="og:url" content="https://shinno.io/projects" />
+                <meta
+                    property="og:url"
+                    content="https://vagabadu-portfolio.netlify.app/projects"
+                />
                 <meta property="og:type" content="website" />
                 <meta
                     property="og:title"
@@ -45,6 +49,17 @@ const Projects = () => {
                         >
                             End-to-end encrypted, database-less, fully secure
                             chat for everyday espionage.
+                        </WorkGridItem>
+                    </Section>
+                    <Section>
+                        <WorkGridItem
+                            id="debtflo"
+                            title="Debtflo"
+                            href="/projects/debtflo"
+                            thumbnail={thumbDebtflo}
+                        >
+                            Search engine delivering in-depth, real-time
+                            financial insights at your fingertips.
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>

@@ -18,7 +18,10 @@ const Page = () => {
                     name="description"
                     content="Welcome to @vagabadu's portfolio website - come explore my work."
                 />
-                <meta property="og:url" content="https://shinno.io" />
+                <meta
+                    property="og:url"
+                    content="https://vagabadu-portfolio.netlify.app"
+                />
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="Shinno's Portfolio Page" />
                 <meta name="twitter:card" content="summary_large_image" />

@@ -18,7 +18,7 @@ const Work = () => {
                 />
                 <meta
                     property="og:url"
-                    content="https://shinno.io/work/bloomberg"
+                    content="https://vagabadu-portfolio.netlify.app/work/bloomberg"
                 />
                 <meta property="og:type" content="website" />
                 <meta

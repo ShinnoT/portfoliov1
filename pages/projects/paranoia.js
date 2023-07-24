@@ -18,7 +18,7 @@ const Project = () => {
                 />
                 <meta
                     property="og:url"
-                    content="https://shinno.io/projects/paranoia"
+                    content="https://vagabadu-portfolio.netlify.app/projects/paranoia"
                 />
                 <meta property="og:type" content="website" />
                 <meta
