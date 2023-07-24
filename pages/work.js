@@ -17,7 +17,10 @@ const Work = () => {
                     name="description"
                     content="A gallery of @vagabadu's work experience."
                 />
-                <meta property="og:url" content="https://shinno.io/work" />
+                <meta
+                    property="og:url"
+                    content="https://vagabadu-portfolio.netlify.app/work"
+                />
                 <meta property="og:type" content="website" />
                 <meta
                     property="og:title"

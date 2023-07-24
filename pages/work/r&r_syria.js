@@ -19,7 +19,7 @@ const Work = () => {
                 />
                 <meta
                     property="og:url"
-                    content="https://shinno.io/work/r&r_syria"
+                    content="https://vagabadu-portfolio.netlify.app/work/r&r_syria"
                 />
                 <meta property="og:type" content="website" />
                 <meta
