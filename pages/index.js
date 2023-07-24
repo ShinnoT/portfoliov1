@@ -33,6 +33,12 @@ const Page = () => {
                     property="og:image"
                     content={"/images/website-screenshot-dark.png"}
                 />
+
+                {/* Google Custom Verification */}
+                <meta
+                    name="google-site-verification"
+                    content="6xXnVkFvhKzltEfFgPHFtx07hki_vwLdO-tAsiAYxok"
+                />
             </Head>
             <Container maxW="xl">
                 <Quote author="Niels Bohr">
