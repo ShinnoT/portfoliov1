@@ -6,6 +6,7 @@ import { WorkGridItem } from "../components/grid-item";
 
 import thumbParanoia from "../public/images/projects/Paranoia-card.png";
 import thumbDebtflo from "../public/images/projects/Debtflo-card.png";
+import thumbMonitor from "../public/images/projects/Monitor-card.png";
 
 const Projects = () => {
     return (
@@ -60,6 +61,17 @@ const Projects = () => {
                         >
                             Search engine delivering in-depth, real-time
                             financial insights at your fingertips.
+                        </WorkGridItem>
+                    </Section>
+                    <Section>
+                        <WorkGridItem
+                            id="monitor"
+                            title="Monitor"
+                            href="/projects/monitor"
+                            thumbnail={thumbMonitor}
+                        >
+                            Instant insights into your computer&apos;s
+                            performance, right from your terminal.
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>
