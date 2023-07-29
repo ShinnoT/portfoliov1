@@ -44,17 +44,17 @@ const Project = () => {
                 <P>
                     Monitor is a very simple command-line application designed
                     to provide users with live visualizations of their
-                    computer's performance metrics. Developed using Python and
-                    the "rich" library, Monitor offers real-time monitoring of
-                    essential system statistics, including CPU usage, memory
-                    usage, disk usage, network data, running processes, and
-                    more.
+                    computer&apos;s performance metrics. Developed using Python
+                    and the &quot;rich&quot; library, Monitor offers real-time
+                    monitoring of essential system statistics, including CPU
+                    usage, memory usage, disk usage, network data, running
+                    processes, and more.
                 </P>
                 <P>
                     The app presents a clean and dynamic interface, utilizing
-                    the "rich" library&apos;s capabilities to showcase key
-                    performance metrics in various colorful segments. Users can
-                    track system resources at a glance, making it ideal for
+                    the &quot;rich&quot; library&apos;s capabilities to showcase
+                    key performance metrics in various colorful segments. Users
+                    can track system resources at a glance, making it ideal for
                     troubleshooting and optimizing their computers&apos;
                     performance. Additionally, the application includes a live
                     line chart displaying CPU usage trends over the past 60
@@ -62,11 +62,11 @@ const Project = () => {
                     their system&apos;s performance history.
                 </P>
                 <P>
-                    Powered by the "psutil" library, Monitor fetches real-time
-                    data on CPU, memory, disk, and network usage, keeping the
-                    display constantly up-to-date. Users can witness system
-                    fluctuations and get instant insights into their PC&apos;s
-                    performance.
+                    Powered by the &quot;psutil&quot; library, Monitor fetches
+                    real-time data on CPU, memory, disk, and network usage,
+                    keeping the display constantly up-to-date. Users can witness
+                    system fluctuations and get instant insights into their
+                    PC&apos;s performance.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
