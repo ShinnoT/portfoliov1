@@ -6,8 +6,9 @@ import {
     Text,
     Divider,
     useColorModeValue,
+    Link,
 } from "@chakra-ui/react";
-import { FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaInstagram } from "react-icons/fa";
 
 const Footer = () => (
     <Container
@@ -37,17 +38,15 @@ const Footer = () => (
                         aria-label="GitHub"
                         icon={<FaGithub fontSize="1.25rem" />}
                     />
-                    <IconButton
-                        as="a"
-                        href="#"
-                        aria-label="Twitter"
-                        icon={<FaTwitter fontSize="1.25rem" />}
-                    />
                 </ButtonGroup>
             </Stack>
             <Text fontSize="sm" color="subtle">
                 &copy; {new Date().getFullYear()} Made with ♥. All rights
-                reserved.
+                reserved. Design from{" "}
+                <Link as="a" href="https://www.craftz.dog/">
+                    @craftzdog
+                </Link>
+                .
             </Text>
         </Stack>
     </Container>
