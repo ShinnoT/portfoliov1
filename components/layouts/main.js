@@ -16,7 +16,10 @@ const Main = ({ children, router }) => {
                     content="HTML, CSS, JavaScript, Node.JS, Python, Next.JS, Portfolio"
                 />
                 <meta name="author" content="Shinno Taguchi" />
-                <meta property="og:image" content="/images/ogimage.png" />
+                <meta
+                    property="og:image"
+                    content="https://vagabadu-portfolio.netlify.app/images/ogimage.png"
+                />
             </Head>
             <NavBar path={router.asPath} />
             <Container
