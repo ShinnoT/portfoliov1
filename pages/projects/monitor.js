@@ -28,10 +28,6 @@ const Project = () => {
                     property="og:description"
                     content="A showcase of @vagabadu's personal project Monitor - live, colorful, instant insights into your computer's performance, right from your terminal."
                 />
-                <meta
-                    property="og:image"
-                    content={"/images/projects-monitor-screenshot-dark.png"}
-                />
             </Head>
             <Container>
                 <Title navLink="projects">

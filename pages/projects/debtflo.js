@@ -28,10 +28,6 @@ const Project = () => {
                     property="og:description"
                     content="A showcase of @vagabadu's personal project Debtflo - delivers in-depth, real-time financial insights on any stock ticker at your fingertips."
                 />
-                <meta
-                    property="og:image"
-                    content={"/images/projects-debtflo-screenshot-dark.png"}
-                />
             </Head>
             <Container>
                 <Title navLink="projects">

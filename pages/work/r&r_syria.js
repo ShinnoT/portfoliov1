@@ -31,10 +31,6 @@ const Work = () => {
                     property="og:description"
                     content="@vagabadu's experience working at Relief & Reconciliation for Syria."
                 />
-                <meta
-                    property="og:image"
-                    content={"/images/work-rr-screenshot-dark.png"}
-                />
             </Head>
             <Container>
                 <Title navLink="work">

@@ -30,10 +30,6 @@ const Project = () => {
                     property="og:description"
                     content="A showcase of @vagabadu's personal project Paranoia - database-less, end-to-end encrypted chat."
                 />
-                <meta
-                    property="og:image"
-                    content={"/images/projects-paranoia-screenshot-dark.png"}
-                />
             </Head>
             <Container>
                 <Title navLink="projects">
