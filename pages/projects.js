@@ -31,10 +31,6 @@ const Projects = () => {
                     property="og:description"
                     content="A gallery of @vagabadu's personal projects."
                 />
-                <meta
-                    property="og:image"
-                    content={"/images/projects-screenshot-dark.png"}
-                />
             </Head>
             <Container maxW="xl">
                 <Heading as="h3" fontSize={20} my={6}>

@@ -29,10 +29,6 @@ const Page = () => {
                     property="og:description"
                     content="Welcome to @vagabadu's portfolio website - come explore my work."
                 />
-                <meta
-                    property="og:image"
-                    content={"/images/website-screenshot-dark.png"}
-                />
 
                 {/* Google Custom Verification */}
                 <meta

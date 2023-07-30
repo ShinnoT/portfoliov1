@@ -30,10 +30,6 @@ const Work = () => {
                     property="og:description"
                     content="@vagabadu's experience working at Bloomberg L.P."
                 />
-                <meta
-                    property="og:image"
-                    content={"/images/work-bloomberg-screenshot-dark.png"}
-                />
             </Head>
             <Container>
                 <Title navLink="work">
