@@ -7,6 +7,7 @@ import { WorkGridItem } from "../components/grid-item";
 import thumbParanoia from "../public/images/projects/Paranoia-card.png";
 import thumbDebtflo from "../public/images/projects/Debtflo-card.png";
 import thumbMonitor from "../public/images/projects/Monitor-card.png";
+import thumbCryptocrawl from "../public/images/projects/Cryptocrawl-card.png";
 
 const Projects = () => {
     return (
@@ -68,6 +69,17 @@ const Projects = () => {
                         >
                             Instant insights into your computer&apos;s
                             performance, right from your terminal.
+                        </WorkGridItem>
+                    </Section>
+                    <Section>
+                        <WorkGridItem
+                            id="cryptocrawl"
+                            title="Cryptocrawl"
+                            href="/projects/cryptocrawl"
+                            thumbnail={thumbCryptocrawl}
+                        >
+                            A simple, lightweight ETL data pipeline for
+                            cryptocurrency data.
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>
