@@ -24,9 +24,14 @@ const WorkImage = ({ src, alt }) => {
     return <Image borderRadius="lg" w="full" src={src} alt={alt} mb={4} />;
 };
 
-const Meta = ({ children }) => {
+const Meta = ({ purpose, children }) => {
+    const colorScheme = {
+        website: "green",
+        github: "gray",
+    };
+
     return (
-        <Badge colorScheme="green" mr={2}>
+        <Badge colorScheme={colorScheme[purpose]} mr={2}>
             {children}
         </Badge>
     );

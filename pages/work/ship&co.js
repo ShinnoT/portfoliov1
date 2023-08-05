@@ -81,7 +81,7 @@ const Work = () => {
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
-                        <Meta>Website</Meta>
+                        <Meta purpose="website">Website</Meta>
                         <Link
                             href="https://www.shipandco.com/en"
                             target="_blank"

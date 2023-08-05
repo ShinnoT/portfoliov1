@@ -66,7 +66,7 @@ const Project = () => {
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
-                        <Meta>Website</Meta>
+                        <Meta purpose="github">Github</Meta>
                         <Link
                             href="https://github.com/ShinnoT/monitor"
                             target="_blank"
