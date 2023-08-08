@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: https://vagabadu-portfolio.netlify.app/sitemap.xml
