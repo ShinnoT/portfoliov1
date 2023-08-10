@@ -46,7 +46,7 @@ const Page = () => {
                         <Heading as="h2" variant="page-title">
                             Shinno Taguchi
                         </Heading>
-                        @vagabadu ( Arabophile / Developer / H4cker )
+                        @vagabadu ( Developer / Tech Enthusiast )
                     </Box>
                     <Box
                         flexShrink={0}
