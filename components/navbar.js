@@ -92,6 +92,13 @@ const NavBar = (props) => {
                     </LinkItem>
                     <LinkItem
                         as="a"
+                        href="https://vagabadu-graphic-design.carrd.co/"
+                        path={path}
+                    >
+                        Graphic Design
+                    </LinkItem>
+                    <LinkItem
+                        as="a"
                         href="https://github.com/ShinnoT/portfoliov1"
                         path={path}
                     >
@@ -123,6 +130,12 @@ const NavBar = (props) => {
                                     href="https://vagabadu-blog.netlify.app/"
                                 >
                                     Blog
+                                </MenuItem>
+                                <MenuItem
+                                    as="a"
+                                    href="https://vagabadu-graphic-design.carrd.co/"
+                                >
+                                    Graphic Design
                                 </MenuItem>
                                 <MenuItem
                                     as={Link}
