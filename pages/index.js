@@ -138,11 +138,20 @@ const Page = () => {
                         <BioYear>2018</BioYear>Worked at Ship&co Kyoto.
                     </BioSection>
                     <BioSection>
-                        <BioYear>2019</BioYear>Worked at Bloomberg L.P. Tokyo.
+                        <BioYear>2019 - 2021</BioYear>Worked at Bloomberg L.P.
+                        Tokyo.
                     </BioSection>
                     <BioSection>
-                        <BioYear>2022 - present</BioYear>Working at Relief &
+                        <BioYear>2022 - 2023</BioYear>Worked at Relief &
                         Reconciliation for Syria.
+                    </BioSection>
+                    <BioSection>
+                        <BioYear>2024</BioYear>Worked at the David Graeber
+                        Institute.
+                    </BioSection>
+                    <BioSection>
+                        <BioYear>2025 - present</BioYear>Working at Woven by
+                        Toyota.
                     </BioSection>
                 </Section>
                 <Section delay={0.4}>

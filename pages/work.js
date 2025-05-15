@@ -7,6 +7,8 @@ import { WorkGridItem } from "../components/grid-item";
 import thumbRR from "../public/images/work/RR-card.png";
 import thumbBBG from "../public/images/work/Bloomberg-card.png";
 import thumbShipandco from "../public/images/work/Shipandco-card.png";
+import thumbDGI from "../public/images/work/DGI-card.png";
+import thumbWoven from "../public/images/work/Woven-card.png";
 
 const Work = () => {
     return (
@@ -68,6 +70,29 @@ const Work = () => {
                         >
                             Frontline NGO based in Akkar, Lebanon, supporting
                             those affected by the Syrian and economic crisis.
+                        </WorkGridItem>
+                    </Section>
+                    <Section>
+                        <WorkGridItem
+                            id="dgi"
+                            title="David Graeber Institute"
+                            href="/work/dgi"
+                            thumbnail={thumbDGI}
+                        >
+                            Provides a platform for projects related to David
+                            Graeber’s legacy, developing his ideas and projects.
+                        </WorkGridItem>
+                    </Section>
+                    <Section>
+                        <WorkGridItem
+                            id="woven_toyota"
+                            title="Woven by Toyota"
+                            href="/work/woven_toyota"
+                            thumbnail={thumbWoven}
+                        >
+                            Creating and managing the software for Toyota's
+                            vehicle operating system, automated driving, and
+                            safety.
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>
