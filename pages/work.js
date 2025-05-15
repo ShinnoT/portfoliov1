@@ -91,7 +91,7 @@ const Work = () => {
                             href="/work/woven_toyota"
                             thumbnail={thumbWoven}
                         >
-                            Creating and managing the software for Toyota's
+                            Creating and managing the software for Toyota&apos;s
                             vehicle operating system, automated driving, and
                             safety.
                         </WorkGridItem>
