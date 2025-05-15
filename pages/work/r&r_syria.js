@@ -34,7 +34,7 @@ const Work = () => {
             </Head>
             <Container>
                 <Title navLink="work">
-                    Relief & Reconciliation for Syria <Badge>2022</Badge>
+                    Relief & Reconciliation for Syria <Badge>2022 - 2023</Badge>
                 </Title>
                 <WorkImage
                     src="/images/work/RR-card.png"

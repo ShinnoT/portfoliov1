@@ -62,4 +62,16 @@
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
+    <url>
+        <loc>https://vagabadu-portfolio.netlify.app/work/dgi</loc>
+        <lastmod>2025-05-15</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://vagabadu-portfolio.netlify.app/work/woven_toyota</loc>
+        <lastmod>2023-05-15</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
 </urlset>

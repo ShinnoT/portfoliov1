@@ -33,7 +33,7 @@ const Work = () => {
             </Head>
             <Container>
                 <Title navLink="work">
-                    Bloomberg L.P. <Badge>2019</Badge>
+                    Bloomberg L.P. <Badge>2019 - 2021</Badge>
                 </Title>
                 <WorkImage
                     src="/images/work/Bloomberg-card.png"
