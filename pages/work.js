@@ -80,7 +80,8 @@ const Work = () => {
                             thumbnail={thumbDGI}
                         >
                             Provides a platform for projects related to David
-                            Graeber’s legacy, developing his ideas and projects.
+                            Graeber&apos;s legacy, developing his ideas and
+                            projects.
                         </WorkGridItem>
                     </Section>
                     <Section>
