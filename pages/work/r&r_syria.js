@@ -41,44 +41,56 @@ const Work = () => {
                     alt="Relief & Reconciliation for Syria"
                 />
                 <P>
-                    Throughout my fulfilling journey at the NGO Relief and
-                    Reconciliation for Syria, located on the borders of Syria in
-                    Northern Lebanon, I have had the privilege of contributing
-                    my skills and expertise to make a positive impact in the
-                    lives of others. As a versatile professional, I have held
-                    multiple roles within the organization, serving as a
-                    Communications Manager, Translator, English Teacher, and
-                    Computer Literacy Teacher.
+                    During my time with the NGO Relief and Reconciliation for
+                    Syria, based in northern Lebanon near the Syrian border, I
+                    worked to support both local Lebanese communities and Syrian
+                    refugees. My involvement spanned several roles, including
+                    but not limited to, communications manager, translator,
+                    English teacher, and computer literacy teacher.
                 </P>
                 <P>
-                    As a Communications Manager, I took on the responsibility of
-                    fostering clear and effective communication channels both
-                    internally and externally. I collaborated closely with
-                    various teams to develop and implement communication
-                    strategies, ensuring that the organization&apos;s mission
-                    and initiatives were conveyed to stakeholders and the public
-                    with clarity and impact. My passion for storytelling and
-                    connecting with diverse audiences played a significant role
-                    in enhancing the NGO&apos;s outreach and engagement efforts.
+                    As communications manager, I helped coordinate internal and
+                    external communication efforts. I worked with team members
+                    to develop and implement strategies that conveyed the
+                    organization&apos;s mission and activities clearly to
+                    stakeholders and the public. My goal was to support
+                    transparency and engagement, not to promote myself, but to
+                    ensure the work of the organization was effectively
+                    represented.
                 </P>
                 <P>
-                    In addition to my managerial role, my language skills
-                    allowed me to bridge cultural divides and facilitate
-                    understanding between English and Arabic-speaking
-                    communities. Serving as a Translator, I facilitated seamless
-                    communication between those we serve, our staff, and
-                    international partners. This role strengthened my belief in
-                    the power of language to foster empathy and unity, even in
-                    challenging circumstances.
+                    In my role as translator, I supported communication between
+                    Arabic- and English-speaking individuals, helping to
+                    facilitate understanding between staff, beneficiaries, and
+                    international partners. I saw this as an important
+                    responsibility in ensuring that language did not become a
+                    barrier to cooperation or access to services.
                 </P>
                 <P>
-                    As an English Teacher and Computer Literacy Teacher, I had
-                    the opportunity to empower individuals by imparting valuable
-                    skills that opened doors to new opportunities. Whether
-                    teaching language skills that improved employability or
-                    equipping beneficiaries with digital literacy, I witnessed
-                    firsthand the transformative effect of education in shaping
-                    lives and fostering resilience.
+                    As an English and computer literacy teacher, I taught basic
+                    language and computer skills to students of varying ages
+                    from the communities we served. I also helped support
+                    students in Basic Literacy and Numeracy (BLN) classes as
+                    well as afterschool homework help classes. My role was to
+                    provide practical support and knowledge that could be useful
+                    in everyday life or future employment. I approached this
+                    work with the understanding that even small contributions
+                    can be meaningful when responding to long-term needs. A
+                    great source of inspiration was Paulo Freire and his
+                    book&nbsp;
+                    <Link
+                        href="https://en.wikipedia.org/wiki/Pedagogy_of_the_Oppressed"
+                        target="_blank"
+                    >
+                        "Pedagogy of the Oppressed"
+                    </Link>
+                    .
+                </P>
+                <P>
+                    Overall, my time at the NGO was shaped by a commitment to
+                    serve and support others, and I remain grateful for the
+                    experience and for the opportunity to work alongside a
+                    dedicated team in a challenging environment.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>

@@ -40,47 +40,49 @@ const Work = () => {
                     alt="Bloomberg L.P."
                 />
                 <P>
-                    As a seasoned Global Data Analyst at Bloomberg L.P., I have
-                    had the incredible opportunity to immerse myself in the
+                    As a Data Analyst (FKA Global Data Analyst) at Bloomberg, I
+                    have had the incredible opportunity to immerse myself in the
                     dynamic world of financial data and analytics. Throughout my
-                    tenure with this prestigious organization, I have honed my
-                    skills in gathering, analyzing, and interpreting complex
-                    datasets from diverse markets worldwide, and had the great
-                    privilege of being at the forefront of data-driven
-                    innovations, participating in numerous projects that have
-                    significantly impacted the financial industry.
+                    tenure, I have honed my skills in gathering, analyzing, and
+                    interpreting complex datasets from diverse markets
+                    worldwide, and had the great privilege of being at the
+                    forefront of data-driven innovations, participating in
+                    numerous projects that have significantly impacted the
+                    financial industry.
                 </P>
                 <P>
                     One highlight of my tenure was the opportunity to
-                    participate in an internal Hackathon, where I collaborated
-                    with a talented team and used Machine Learning to tackle a
-                    complex data challenge. Leveraging my expertise in data
-                    analysis and interpretation, we developed a groundbreaking
-                    solution that impressed the judges and earned us the top
-                    spot. This experience not only reinforced my problem-solving
-                    skills but also demonstrated my ability to thrive in a
-                    fast-paced and collaborative environment.
+                    participate in and win an APAC-wide company Hackathon, where
+                    I collaborated with a talented team and used Machine
+                    Learning to try to classify and differentiate between
+                    relevant and non-relevant M&A news sources. Leveraging our
+                    expertise in Python, we developed a solution that impressed
+                    the judges and earned us the top spot. This experience not
+                    only reinforced my problem-solving skills but also
+                    demonstrated my ability to thrive in a fast-paced and
+                    collaborative environment.
                 </P>
                 <P>
-                    In addition to the Hackathon success, I have played a
-                    pivotal role in designing and building (with Python) robust
-                    data pipelines for specific financial products. These
-                    pipelines have enabled seamless and real-time access to
-                    crucial market information, empowering our clients to make
-                    informed decisions swiftly and confidently. From data
-                    extraction and transformation to loading and visualization,
-                    I ensured that the pipelines adhered to the highest
-                    standards of accuracy and efficiency.
+                    In addition to the Hackathon success, I collaborated in
+                    designing and building (with Python) robust data pipelines
+                    for specific financial products. These pipelines have
+                    enabled seamless and real-time access to crucial market
+                    information, empowering our clients to make informed
+                    decisions swiftly and confidently. From data extraction and
+                    transformation to loading and visualization, I ensured that
+                    the pipelines adhered to the highest standards of accuracy
+                    and efficiency.
                 </P>
                 <P>
-                    Working as a Global Data Analyst at Bloomberg L.P. has
-                    allowed me to delve into a vast array of financial data from
-                    global markets. I have not only provided valuable insights
-                    to our clients but also collaborated with cross-functional
-                    teams to enhance existing data products and create new ones.
-                    My passion for data-driven solutions and my dedication to
-                    precision and excellence have been instrumental in making a
-                    tangible impact on the financial landscape.
+                    Working as a Data Analyst at Bloomberg has allowed me to
+                    delve into a vast array of financial data from global
+                    markets. I not only had the opportunity to provide valuable
+                    insights to our clients but also collaborated with
+                    cross-functional teams to enhance existing data products and
+                    create new ones. My interest in data-driven solutions and
+                    commitment to accuracy have allowed me to contribute
+                    meaningfully to the global financial landscape, but most
+                    importantly, learn about how to build better software!
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
