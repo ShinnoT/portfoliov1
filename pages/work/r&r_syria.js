@@ -82,7 +82,7 @@ const Work = () => {
                         href="https://en.wikipedia.org/wiki/Pedagogy_of_the_Oppressed"
                         target="_blank"
                     >
-                        "Pedagogy of the Oppressed"
+                        &quot;Pedagogy of the Oppressed&quot;
                     </Link>
                     .
                 </P>
