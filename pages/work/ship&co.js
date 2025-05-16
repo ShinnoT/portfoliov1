@@ -38,46 +38,42 @@ const Work = () => {
                     alt="Ship&co"
                 />
                 <P>
-                    As a dedicated full-stack software engineer, my time at
-                    Ship&co has been a thrilling journey filled with innovation
-                    and problem-solving. Working with cutting-edge technologies,
-                    including Node.js, Meteor.js, and MongoDB, I have been
-                    instrumental in developing robust and scalable applications
-                    that revolutionized the shipping and e-commerce industry.
+                    As a full-stack software engineer at Ship&co, my experience
+                    has been both challenging and rewarding, offering numerous
+                    opportunities to grow through hands-on problem-solving and
+                    collaboration. Working with technologies like Node.js,
+                    Meteor.js, and MongoDB, I contributed to the development of
+                    scalable applications aimed at improving shipping workflows
+                    for e-commerce businesses.
                 </P>
                 <P>
-                    At Ship&co, I played a pivotal role in crafting a
-                    feature-rich application that streamlined shipping processes
-                    for our clients. Utilizing the power of Node.js and
-                    Meteor.js, I created efficient server-side modules that
-                    handled complex data operations with utmost precision,
-                    delivering a seamless and responsive user experience. My
-                    expertise in MongoDB further ensured smooth data storage and
-                    retrieval, optimizing application performance and
-                    reliability.
+                    During my time at Ship&co, I was involved in building a
+                    feature-rich application that helped streamline shipping
+                    processes for our clients. I worked on developing
+                    server-side modules using Node.js and Meteor.js to support
+                    efficient data operations and aimed to deliver a smooth,
+                    responsive user experience. My work with MongoDB contributed
+                    to ensuring reliable data storage and retrieval, which
+                    supported the overall performance of the application.
                 </P>
                 <P>
-                    One of the highlights of my work at Ship&co was integrating
-                    REST APIs and webhooks into our application. This
-                    integration allowed us to connect with external systems
-                    seamlessly, enabling real-time data exchange and automation.
-                    Whether it was interfacing with carrier services or
-                    synchronizing shipping data, I ensured that our application
-                    communicated flawlessly with external platforms, enhancing
-                    the overall efficiency of our clients&apos; shipping
-                    processes.
+                    One particularly meaningful aspect of my role was
+                    integrating REST APIs and webhooks into the platform. This
+                    allowed us to connect our system with external services,
+                    enabling real-time data exchange and process automation.
+                    Whether it involved integrating with carrier APIs or syncing
+                    shipping data, I did my best to support reliable
+                    communication between our platform and external systems.
                 </P>
                 <P>
-                    Throughout my journey as a full-stack software engineer, I
-                    collaborated closely with cross-functional teams to bring
-                    projects from ideation to successful deployment. From
-                    participating in brainstorming sessions to providing
-                    valuable insights during architectural discussions, I
-                    actively contributed to the entire software development
-                    lifecycle. My unwavering commitment to staying updated with
-                    the latest industry trends and best practices allowed me to
-                    incorporate the most relevant technologies into our
-                    projects, delivering cutting-edge solutions.
+                    I also had the opportunity to collaborate closely with
+                    cross-functional teams, from early-stage discussions to
+                    final deployment. Being part of brainstorming sessions and
+                    architectural planning helped me gain a broader
+                    understanding of the development lifecycle. I continuously
+                    made an effort to stay updated with current technologies and
+                    best practices, which informed my contributions and helped
+                    us deliver practical, up-to-date solutions.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
