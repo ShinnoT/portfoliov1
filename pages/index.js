@@ -173,6 +173,20 @@ const Page = () => {
                         </NextLink>
                     </Box>
                 </Section>
+                <Box
+                    display={{ md: "flex" }}
+                    justifyContent="center"
+                    paddingTop={10}
+                >
+                    <Box flexGrow={1} align="center">
+                        <Image
+                            display="inline-block"
+                            src="/images/astronaut.gif"
+                            alt="Floating Astronaut"
+                            maxW="120px"
+                        />
+                    </Box>
+                </Box>
             </Container>
         </Layout>
     );
