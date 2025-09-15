@@ -114,7 +114,7 @@ const Page = () => {
                                 rightIcon={<ChevronRightIcon />}
                                 colorScheme="teal"
                             >
-                                My portfolio
+                                My professional experience
                             </Button>
                         </NextLink>
                     </Box>
@@ -150,8 +150,10 @@ const Page = () => {
                         Institute.
                     </BioSection>
                     <BioSection>
-                        <BioYear>2025 - present</BioYear>Working at Woven by
-                        Toyota.
+                        <BioYear>2025</BioYear>Worked at Woven by Toyota.
+                    </BioSection>
+                    <BioSection>
+                        <BioYear>2025 - present</BioYear>Working at Rakuten.
                     </BioSection>
                 </Section>
                 <Section delay={0.4}>
@@ -168,7 +170,7 @@ const Page = () => {
                                 rightIcon={<ChevronRightIcon />}
                                 colorScheme="teal"
                             >
-                                My projects
+                                My personal projects
                             </Button>
                         </NextLink>
                     </Box>

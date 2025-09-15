@@ -9,6 +9,7 @@ import thumbBBG from "../public/images/work/Bloomberg-card.png";
 import thumbShipandco from "../public/images/work/Shipandco-card.png";
 import thumbDGI from "../public/images/work/DGI-card.png";
 import thumbWoven from "../public/images/work/Woven-card.png";
+import thumbRakuten from "../public/images/work/Rakuten-card.png";
 
 const Work = () => {
     return (
@@ -94,6 +95,18 @@ const Work = () => {
                             Creating and managing the software for Toyota&apos;s
                             vehicle operating system, automated driving, and
                             safety.
+                        </WorkGridItem>
+                    </Section>
+                    <Section>
+                        <WorkGridItem
+                            id="rakuten"
+                            title="Rakuten"
+                            href="/work/rakuten"
+                            thumbnail={thumbRakuten}
+                        >
+                            Japanese e-commerce and tech conglomerate offering
+                            online shopping, fintech, and digital services
+                            worldwide.
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>
